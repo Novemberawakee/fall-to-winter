@@ -1,0 +1,238 @@
+body {
+    background-image: url(fall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: 'Pacifico', cursive;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+    border: 2px #fff solid;
+    margin: 25px;
+    margin-top: 15px;
+    text-align: center;
+}
+.days, .hours, .minutes, .seconds {
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Pacifico', cursive;
+}
+.day, .hour, .minute, .second {
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Pacifico', cursive;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+ul {
+    color: #fff;
+}
+h5 {
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Pacifico', cursive;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+a:hover {
+    color: #FFE400;
+}
+
+.play {
+    background-image: url(play.png);
+    background-size: contain;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(255, 255, 255, 0.0001);
+    border: none;
+    margin-top: 120px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.pause {
+    background-image: url(pause.png);
+}
+
+
+.ny {
+    background-image: url(winter3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+}
+.happy {
+    color: #fff;
+    font-size: 70px;
+    margin-top: 320px;
+    font-family: 'Pacifico', cursive;
+}
+.hide {
+    display: none;
+}
+.newBody {
+    background-image: url(happy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.play2 {
+    background-image: url(play.png);
+    background-size: contain;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(255, 255, 255, 0.0001);
+    border: none;
+    margin-top: 120px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.pause2 {
+    background-image: url(pause.png);
+}
+
+@media all and (max-width: 1024px) {
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .play {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .play2 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .hide {
+        display: none;
+    }
+}
+@media all and (max-width: 912px) {
+    .happy {
+        margin-top: 550px;
+    }
+}
+@media all and (max-width: 820px) {
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 23px;
+    }
+    .day, .hour, .minute, .second {
+        font-size: 23px;
+    }
+    .play {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .play2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .happy {
+        font-size: 65px;
+        margin-top: 470px;
+    }
+    .hide {
+        display: none;
+    }
+}
+@media all and (max-width: 768px) {
+    .days, .hours, .minutes, .seconds {
+        font-size: 20px;
+    }
+    .day, .hour, .minute, .second {
+        font-size: 20px;
+    }
+    .happy {
+        font-size: 60px;
+        margin-top: 450px;
+    }
+}
+@media all and (max-width: 540px) {
+    h1 {
+        font-size: 25px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .block {
+        width: 70px;
+        height: 100px;
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 23px;
+    }
+    .day, .hour, .minute, .second {
+        font-size: 23px;
+    }
+    .links {
+        width: 300px;
+    }
+    .happy {
+        font-size: 40px;
+        margin-top: 300px;
+    }
+    .hide {
+        display: none;
+    }
+}
+@media all and (max-width: 280px) {
+    h1 {
+        font-size: 18px;
+    }
+    .block {
+        width: 70px;
+        height: 90px;
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 19px;
+    }
+    .links {
+        width: 200px;
+        padding: 10px;
+    }
+}
